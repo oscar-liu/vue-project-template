@@ -3,9 +3,12 @@ import App from './App.vue'
 import router from "./router/index"
 
 import store from './store/index'
+import VeeValidate from 'vee-validate';
+
 
 Vue.config.productionTip = false
 
+Vue.use(VeeValidate);
 
 
 //注册过滤器
